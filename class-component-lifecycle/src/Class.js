@@ -1,5 +1,6 @@
 import React from "react";
 import Did from "./Did";
+//import Dele from "./Dele";
 
 class Class extends React.Component{
     constructor(){
@@ -14,9 +15,9 @@ class Class extends React.Component{
         console.log("componentDidMount")
     }
 
-   */* componentDidUpdate(prevProps,prevState){
+   /* componentDidUpdate(prevProps,prevState){
         console.log("App counter update");
-        console.log("Add"prevProps);
+        console.log("App"prevProps);
         console.log("App "prevState)
     }*/
 

@@ -12,7 +12,7 @@ class Did extends React.Component{
         }
         componentWillUnmount(){
             clearInterval(this.timerId)
-            console.log(" child clear willunmount")
+            console.log(" child clear Didwillunmount")
         }
         tick(){
             this.setState({
